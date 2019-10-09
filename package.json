@@ -1,0 +1,30 @@
+{
+  "name": "markup-setting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-sort": "^2.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp.spritesmith": "^6.9.0",
+    "run-sequence": "^2.2.1",
+    "vinyl-ftp": "^0.6.1",
+    "vinyl-ftp-branch": "^0.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeonsol/markup-setting.git"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-notify": "^3.2.0"
+  }
+}
