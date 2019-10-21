@@ -1,0 +1,47 @@
+header { 
+    text-align: center;
+    position: relative;
+    height: 40px;
+    
+    h1 {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .login_link{
+        position: absolute;
+        top: 10px;
+        left: 14px;
+        font-size: 15px;
+    }
+    .right_area{
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        .pay{
+            transform: scale(1.2);
+            display: inline-block;
+            vertical-align: top;
+            &:before {
+                display: inline-block;
+                @include get-sprite('pay', $sp_header);
+                vertical-align: top;
+                content: '';
+            }
+        }
+        .setting{
+            margin-left: 30px;
+            transform: scale(1.2);
+            display: inline-block;
+            vertical-align: top;
+            &:before{
+                display: inline-block;
+                @include get-sprite('setting', $sp_header);
+                vertical-align: top;
+                content: '';
+            }
+        }
+    }
+    
+}

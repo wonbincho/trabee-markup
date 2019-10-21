@@ -1,0 +1,33 @@
+.view_type{
+    font-size: 0;
+    margin: 13px 0 0 20px;
+    li{
+        display: inline-block;
+        vertical-align: top;
+
+        &+li{
+            margin-left: 18px;
+        }
+    }
+    button{
+        vertical-align: top;
+        &.box_1:before {
+            @include get-sprite('box_3', $sp_viewType);
+        }
+        &.box_2:before {
+            @include get-sprite('box_4', $sp_viewType);
+        }
+        &.box_3:before {
+            @include get-sprite('box_3', $sp_viewType);
+        }
+        &.box_4:before {
+            @include get-sprite('box_4', $sp_viewType);
+        }
+        &:before {
+            display: inline-block;
+           
+            vertical-align: top;
+            content: '';
+        }
+    }
+}

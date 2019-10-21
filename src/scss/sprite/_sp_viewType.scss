@@ -1,0 +1,22 @@
+// Sprites Map
+$sp_viewType: (
+	name: 'sp_viewType',
+	ratio: 2,
+	width: 68px,
+	height: 32px,
+	image: '../img/sprite/sp_viewType.png',
+	sprites: (
+	box_3: (
+			offset-x: 0px,
+			offset-y: 0px,
+			width: 32px,
+			height: 32px,
+		),
+		box_4: (
+			offset-x: -36px,
+			offset-y: 0px,
+			width: 32px,
+			height: 32px,
+		),
+	)
+);

@@ -2,13 +2,6 @@
 @import 'common/base';
 @import 'import/sprite_maps';
 @import 'import/sprite_mixin';
-
-header {
-	color: blue;
-	&:before {
-		display: inline-block;
-		@include get-sprite('num1', $sp_temp);
-		vertical-align: top;
-		content: '';
-	}
-}
+@import 'modules/header.scss';
+@import 'modules/viewType.scss';
+@import 'modules/history.scss';

@@ -1,0 +1,22 @@
+// Sprites Map
+$sp_header: (
+	name: 'sp_header',
+	ratio: 2,
+	width: 68px,
+	height: 32px,
+	image: '../img/sprite/sp_header.png',
+	sprites: (
+	pay: (
+			offset-x: 0px,
+			offset-y: 0px,
+			width: 32px,
+			height: 32px,
+		),
+		setting: (
+			offset-x: -36px,
+			offset-y: 0px,
+			width: 32px,
+			height: 32px,
+		),
+	)
+);

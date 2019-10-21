@@ -2,6 +2,8 @@
 
 // Sprites Map import
 @import "../sprite/sp_temp";
+@import "../sprite/sp_header";
+@import "../sprite/sp_viewType";
 
 // Sprites Map List
-$map_list: $sp_temp, ;
+$map_list: $sp_temp, $sp_header,$sp_viewType;

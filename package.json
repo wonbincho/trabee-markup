@@ -1,7 +1,6 @@
 {
-  "name": "markup-setting",
+  "name": "trabee-markup",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "devDependencies": {
     "del": "^3.0.0",
@@ -21,10 +20,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jeonsol/markup-setting.git"
+    "url": "git+https:/https://github.com/wonbincho/trabee-markup.git"
   },
   "dependencies": {
     "browser-sync": "^2.26.7",
     "gulp-notify": "^3.2.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/wonbincho/trabee-markup/issues"
+  },
+  "homepage": "https://github.com/wonbincho/trabee-markup#readme",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
